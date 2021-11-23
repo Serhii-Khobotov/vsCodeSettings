@@ -1,0 +1,25 @@
+body {
+  font-weight: bold;
+}
+
+.block {
+  margin: 10px;
+  border: solid 1px black;
+  
+}
+
+.chapter {
+  margin: 5px;
+}
+
+.field_title {
+  margin: 5px;
+}
+
+.field {
+  margin: 5px;
+}
+
+.button {
+  margin: 10px;
+}
