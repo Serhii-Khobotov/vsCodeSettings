@@ -1,0 +1,55 @@
+body, ul {
+  margin: 0;
+}
+
+.page {
+  background-image: url(./images/poppy.jpg);
+}
+
+.header {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./images/UkraineFlag.png);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}
+
+.logo {
+  
+}
+
+.nav__list {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-size: 25px;
+  color: #f00
+}
+
+.main  {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: #f00;
+}
+
+.section-content__poems {
+  color: yellow;
+  background-color: #08f;
+  padding: 20px;
+  width: max-content;
+  text-align: center;
+  border: 1px solid yellow;
+  border-radius: 14px;
+  opacity: 0.9;
+  box-shadow: 10px 10px 10px yellow;
+  box-shadow: -10px 10px 10px yellow;
+}

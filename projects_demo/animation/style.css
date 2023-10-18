@@ -1,0 +1,44 @@
+.box {
+  position: relative;
+  height: 100px;
+  width: 100px;background-color: green;
+
+  /* animation-name: move;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: -500ms;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-fill-mode: backwards; */
+  animation: 
+    move 500ms ease-in-out infinite alternate backwards,
+    round 500ms ease-in-out infinite alternate backwards;
+}
+ 
+.box:hover {
+  animation-play-state: paused;
+}
+
+@keyframes move {
+  from {
+    left: 0;    
+  }
+ 
+  to {
+    left: 300px;
+  }
+}
+
+@keyframes round {
+  0% {
+    border-radius: 0;
+  }
+ 
+  50% {
+    border-radius: 10%;
+  }
+
+  100% {
+    border-radius: 50%;
+  }
+}

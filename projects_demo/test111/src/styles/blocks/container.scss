@@ -1,0 +1,23 @@
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 300px;
+  border: 2px solid #f00;
+
+  &__box {
+
+    box-sizing: border-box;
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+
+    @each $color in $colors {
+      &--#{$color} {
+        background-color: $color;
+        }
+      }
+    }
+}

@@ -1,0 +1,52 @@
+.container {
+  border: 2px solid red;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+.container__box {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+}
+
+.container__box--red {
+  background-color: red;
+}
+
+.container__box--green {
+  background-color: green;
+}
+
+.container__box--blue {
+  background-color: #00f;
+}
+
+.container__box--aqua {
+  background-color: #0ff;
+}
+
+.container__box--orange {
+  background-color: orange;
+}
+
+.container__box--yellow {
+  background-color: #ff0;
+}
+
+.container__box--gray {
+  background-color: gray;
+}
+
+.container__box--black {
+  background-color: #000;
+}
+
+.container__box--white {
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=index.38ec9247.css.map */

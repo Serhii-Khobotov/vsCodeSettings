@@ -1,0 +1,260 @@
+.page {
+  color: #292929;
+  scroll-behavior: smooth;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.page__body {
+  margin: 0;
+}
+
+.page__menu {
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.page__menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.header {
+  box-sizing: border-box;
+  background-image: url("header-bg-mobile.2d58f869.png");
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  display: flex;
+  display: none !important;
+}
+
+.header__waves {
+  background-image: url("sound-waves.47f037b6.png");
+  width: 48px;
+  height: 57px;
+  margin-bottom: 16px;
+}
+
+.header__title {
+  font-style: italic;
+  font-weight: 800px;
+  letter-spacing: -1.5px;
+  margin: 0;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.header__bottom {
+  padding-bottom: 40px;
+  padding-inline: 20px;
+}
+
+@media (width >= 576px) {
+  .header__bottom {
+    padding-inline: 72px;
+  }
+}
+
+@media (width >= 1024px) {
+  .header__bottom {
+    padding-inline: 120px;
+  }
+}
+
+.icon {
+  background-image: url("icon-burger-menu.95976320.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+@media (width >= 576px) {
+  .icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.icon--phone {
+  background-image: url("icon-phone.217bf46b.png");
+}
+
+.icon--menu {
+  background-image: url("icon-burger-menu.95976320.png");
+}
+
+.icon--close {
+  background-image: url("icon-close.6f3ede5c.png");
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.menu {
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background-color: #e5e5e5;
+  height: 100vh;
+  font-weight: 700;
+}
+
+.menu__top {
+  margin-bottom: 32px;
+}
+
+.menu__content {
+  padding-inline: 20px;
+}
+
+@media (width >= 576px) {
+  .menu__content {
+    padding-inline: 72px;
+  }
+}
+
+@media (width >= 1024px) {
+  .menu__content {
+    padding-inline: 120px;
+  }
+}
+
+.menu__nav {
+  margin-bottom: 40px;
+}
+
+.menu__phone-number {
+  color: inherit;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 27px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu__call-to-order {
+  letter-spacing: 2px;
+  color: inherit;
+  border-bottom: 1px solid #292929;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-bottom: 7px;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav__list {
+  flex-direction: column;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav__link {
+  color: inherit;
+  letter-spacing: 2px;
+  font-size: 22px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.top-bar {
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 24px;
+  padding-inline: 20px;
+  display: flex;
+}
+
+@media (width >= 576px) {
+  .top-bar {
+    padding-inline: 72px;
+  }
+}
+
+@media (width >= 1024px) {
+  .top-bar {
+    padding-inline: 120px;
+  }
+}
+
+@media (width >= 576px) {
+  .top-bar {
+    padding-block: 64px;
+  }
+}
+
+.top-bar__logo {
+  display: flex;
+}
+
+.top-bar__icons {
+  gap: 24px;
+  display: flex;
+}
+
+.section-title {
+  text-align: center;
+  letter-spacing: -1.5px;
+  margin: 0 0 48px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+@media (width >= 576px) {
+  .section-title {
+    margin-bottom: 64px;
+    font-size: 40px;
+  }
+}
+
+@media (width >= 1024px) {
+  .section-title {
+    font-size: 48px;
+  }
+}
+
+.section-title--align--left {
+  text-align-last: left;
+}
+
+.main {
+  row-gap: 96px;
+  padding-block: 96px;
+  padding-inline: 20px;
+  display: grid;
+}
+
+@media (width >= 576px) {
+  .main {
+    padding-inline: 72px;
+  }
+}
+
+@media (width >= 1024px) {
+  .main {
+    padding-inline: 120px;
+  }
+}
+
+@media (width >= 576px) {
+  .main {
+    row-gap: 120px;
+    padding-block: 120px;
+  }
+}
+
+/*# sourceMappingURL=index.38ec9247.css.map */

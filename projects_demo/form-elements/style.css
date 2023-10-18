@@ -1,0 +1,15 @@
+.block {
+  margin-bottom: 20px;
+}
+
+.field_title {
+  margin: 10px 0;
+}
+
+.block div:first-of-type {
+  margin-top: 0;
+}
+
+.block div:last-of-type {
+  margin-bottom: 0;
+}

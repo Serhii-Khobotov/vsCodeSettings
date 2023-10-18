@@ -1,0 +1,25 @@
+
+.container {
+  margin: 100px auto;
+  height: 100px;
+  width: 100px;
+  border: 2px solid #000;
+  perspective: 400px;
+
+}
+
+.box {
+  height: 100px;
+  background-color: #aaa;
+  transition: transform 300ms;
+}
+
+.box:hover {
+  /* transform: translate(20px, 60px); */
+  /* transform: translateZ(-100px); */
+  /* transform: scale(2); */
+  /* transform: rotate(30deg); */
+  /* transform-origin: 10px 30px; */
+  /* transform-origin: 10px 30px; */
+  transform: skew(30deg, 30deg) translate(20px,60px);
+}
